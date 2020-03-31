@@ -1,11 +1,11 @@
 
-NICD COVID-19 Situation Updates
+# NICD COVID-19 Situation Updates
 
 This folder stores South African Situation reports as reported by the [National Intsitute for Communicable Diseases](https://www.nicd.ac.za/). The reports have an irregular release period, coupled with an irregular report schema (for instance, the report does not regularly report on the ages of people with confirmed cases, albeit occasionally reporting this information on the early reports). The data is also extremely cencored, for instance it is not possible to retrieve when a deceased individual was first confirmed to have contracted the disease. This may limit the applications of mortality estimation models.
 
 The reports provides updates such as the number of people tested and number of confirmed cases in South Africa, together with the government intervention and recomended social precautions.
 
-Links:
+#### Links:
 
 1. https://www.nicd.ac.za/diseases-a-z-index/covid-19/			
 2. https://www.nicd.ac.za/covid-19-update-2/	17-Feb-20
