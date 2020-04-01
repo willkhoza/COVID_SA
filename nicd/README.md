@@ -34,5 +34,6 @@ The reports provides updates such as the number of people tested and number of c
 25. https://www.nicd.ac.za/covid-19-update-25/	26-Mar-20
 26. https://www.nicd.ac.za/covid-19-update-26/	27-Mar-20
 27. https://www.nicd.ac.za/covid-19-update-27/	28-Mar-20
+28. https://www.nicd.ac.za/covid-19-update-28/  31-Mar-20
 
 The above webpages were downloaded into pdf format using https://pdfcrowd.com/
