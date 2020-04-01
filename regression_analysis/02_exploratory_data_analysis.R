@@ -6,6 +6,7 @@ dat %>%
   summary()
 
 dat.corr <- dat %>%
+  na.omit() %>%
   select(t1,
          t2,
          Population, 
@@ -20,7 +21,8 @@ dat.corr <- dat %>%
          World_Share,
          Passengers,
          migration_index,
-         lnPopulation) %>%
+         lnPopulation,
+         lnPassengers) %>%
   as.matrix() %>%
   rcorr()
 
@@ -38,5 +40,3 @@ dat %>%
   aes(x = t1, y = t2, size = Median_Age)+
   geom_point() +
   ggtitle("t1 vs t2 per country", "Weighted by population median age")
-
-
