@@ -1,5 +1,4 @@
 library(tidyverse)
-setwd("~/repos/COVID_SA/COVID_SA/machinery")
 dat <- read.csv("timeline.csv")
 dat <- dat %>%
   mutate(Median_Age = as.numeric(Median_Age), Urban_Population = as.numeric(Urban_Population), mig2 = sign(Migrants)*log(abs(Migrants)))
@@ -40,26 +39,26 @@ tree.t1 <- rpart(t1~Population +
 
 rpart.plot(tree.t1)
 
-pred1 <- rpart.predict(tree.t1, select(dat, -t2, -t1))
+pred1 <- rpart.predict(tree.t1, select(dat, -c(t2, t1)))
 
-select(dat, -c(t2, t1))
+
 
 cor(dat$t1, pred1)
 
 dat$tree <- pred1
 
 modt1.3 <- lm(lm(t1~  log(Population) +
-        tree +
+        tree +  Median_Age +
         Median_Age, data = dat))
 
 summary(modt1.3)
 
 library(MASS)
 # Fit the full model 
-full.model <- lm(t1~ Population + Annual_Change +
+full.model <- lm(t1~ log(Population) + Annual_Change +
                    Annual_Change_Absolute + Density +
                    Land_Area + Migrants +Fert_Rate + mig2 +
-                   Median_Age + Urban_Population + tree + 
+                   Median_Age + Urban_Population +
                    World_Share, data = dat)
 # Stepwise regression model
 step.model <- stepAIC(full.model, direction = "both", 
