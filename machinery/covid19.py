@@ -1,4 +1,29 @@
 import pandas as pd
+from datetime import datetime
+
+def get_first_dt(dat, out_name, n):
+    """get the first date in which a series is greater than n
+    
+    Arguments:
+        dat {pd.Series} -- [description]
+        out_name {pd.DataFrame} -- [description]
+        n {threshold days} -- [description]
+    
+    Returns:
+        [dt] -- the date in which the time series passes a milestone
+    """
+    out_data = []
+    for country in dat.T:
+        try:
+            dt = (dat.T[dat.T[country]>n]).index[0]
+            dt = datetime.strptime(dt, "%m/%d/%y")
+        except:
+            dt = None
+        out_data.append([country, dt])
+    out_data = pd.DataFrame(out_data)
+    out_data.columns = ['country', out_name]
+    out_data.set_index('country', inplace = True)
+    return out_data
 
 def input_data(url):
     """ read time series data from the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) github
