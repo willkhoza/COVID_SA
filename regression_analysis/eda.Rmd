@@ -1,16 +1,18 @@
 ---
-title: 'EDA: Finding COVID-19'
+title: 'Annexure 1: COVID-19 early days regression analysis'
 output:
   html_document:
     df_print: paged
 ---
 
-# Abstract
+#### Lindo Khoza
+
+
+# Background
 
 This exploratory data analysis notebook continues from the [Novel Coronavirus (COVID-19) Cases from a South African perspective](https://github.com/willkhoza/COVID_SA) repository. The purpose of this analysis is to understand the influence of demographic settings on the early progression of the COVID-19 within different countries.
 
 
-# Introduction
 ## Data Dictionary
 
 Albeit the demographic variables being intuitively named, a detailed data dictionary is provided in the [worldometer](https://github.com/willkhoza/COVID_SA/tree/master/worldometer) folder in the repository.
@@ -21,13 +23,30 @@ $t_1$: The amount of days it takes for a country to report it's **first confirme
 
 $t_2$: The amount of days it takes for a country to report it's **first death** which relates COVID-19.
 
-## Correlogram and Regression Plots
+## Data Summary
 
-
-
-```{r, include=FALSE, code = readLines("01_read_data.R")}
+```{r, message = FALSE, warning=FALSE, code = readLines("01_read_data.R")}
 ```
 
-```{r, message = FALSE, echo = F,warning=FALSE, code = readLines("02_exploratory_data_analysis.R")}
+## Correlogram and Regression Plots
+
+```{r, message = FALSE,warning=FALSE, code = readLines("02_exploratory_data_analysis.R")}
+```
+
+## $t_1$: Regression Analysis
+
+```{r, message = FALSE, warning=FALSE,code = readLines("03_regression_models_t1.R")}
+```
+
+
+## $t_1$: Decision Tree Analysis
+
+```{r, message = FALSE, warning=FALSE,code = readLines("04_tree_model_t1.R")}
+```
+
+
+## $t_2$: Regression Analysis
+
+```{r, message = FALSE, warning=FALSE,code = readLines("05_regression_model_t2.R")}
 ```
 
