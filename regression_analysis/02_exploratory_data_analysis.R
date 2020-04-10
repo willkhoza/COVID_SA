@@ -2,9 +2,6 @@
 library(Hmisc)
 library(corrplot)
 
-dat %>%
-  summary()
-
 dat.corr <- dat %>%
   na.omit() %>%
   select(t1,

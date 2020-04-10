@@ -12,3 +12,5 @@ dat <- dat %>%
 dat <- dat %>%
   filter(t1 > 66)
          
+dat %>%
+  summary()

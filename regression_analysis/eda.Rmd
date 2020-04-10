@@ -1,0 +1,33 @@
+---
+title: 'EDA: Finding COVID-19'
+output:
+  html_document:
+    df_print: paged
+---
+
+# Abstract
+
+This exploratory data analysis notebook continues from the [Novel Coronavirus (COVID-19) Cases from a South African perspective](https://github.com/willkhoza/COVID_SA) repository. The purpose of this analysis is to understand the influence of demographic settings on the early progression of the COVID-19 within different countries.
+
+
+# Introduction
+## Data Dictionary
+
+Albeit the demographic variables being intuitively named, a detailed data dictionary is provided in the [worldometer](https://github.com/willkhoza/COVID_SA/tree/master/worldometer) folder in the repository.
+
+The following variables are defined:
+
+$t_1$: The amount of days it takes for a country to report it's **first confirmed case** with a base date of 17 November 2019. This base date has been unofficiially reported to be the earliest detected case of the disease.
+
+$t_2$: The amount of days it takes for a country to report it's **first death** which relates COVID-19.
+
+## Correlogram and Regression Plots
+
+
+
+```{r, include=FALSE, code = readLines("01_read_data.R")}
+```
+
+```{r, message = FALSE, echo = F,warning=FALSE, code = readLines("02_exploratory_data_analysis.R")}
+```
+
