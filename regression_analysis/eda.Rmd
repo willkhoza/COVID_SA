@@ -1,6 +1,7 @@
 ---
 title: 'Annexure 1: COVID-19 early days regression analysis'
 output:
+  word_document: default
   html_document:
     df_print: paged
 ---
