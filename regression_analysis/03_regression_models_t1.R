@@ -27,7 +27,7 @@ summary(t1.mod1)
 
 #Model Evaluation
 
-t1.pred = predict(t1.mod0, dat)
+t1.pred = predict(t1.mod1, dat)
 plot(dat$t1, t1.pred, main = "t1: Model Performance Plot")
 
 t1.res <- dat$t1-t1.pred
