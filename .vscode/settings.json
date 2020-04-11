@@ -1,3 +1,18 @@
 {
-    "python.pythonPath": "C:\\Users\\e569765\\Anaconda3\\python.exe"
+    "python.pythonPath": "C:\\Users\\e569765\\Anaconda3\\python.exe",
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/reporting/regression analysis/report.tex"
+            ],
+            "config": {
+                "audience": "knowledgeable",
+                "dialect": "american",
+                "domain": "business",
+                "emotions": "neutral",
+                "goals": "inform",
+                "emotion": "mild"
+            }
+        }
+    ]
 }
