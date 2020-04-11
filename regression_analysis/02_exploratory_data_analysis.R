@@ -28,9 +28,15 @@ dat.corr$r %>%
 
 dat %>%
   ggplot()+
-  aes(x = Median_Age, y = t2, size = Passengers)+
+  aes(x = Median_Age, y = t1, size = Passengers)+
   geom_point() +
   ggtitle("Median Age vs t1 per country", "Weighted by air traffic passengers per year")
+
+dat %>%
+  ggplot()+
+  aes(x = lnPassengers, y = t1, size = Fert_Rate)+
+  geom_point() +
+  ggtitle("lnPassengers vs t1 per country", "Fert_Rate")
 
 dat %>%
   ggplot()+
