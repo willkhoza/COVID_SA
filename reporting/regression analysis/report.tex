@@ -19,7 +19,7 @@
 \maketitle
 
 \begin{abstract}
-This analysis is based on the \href{https://github.com/willkhoza/COVID_SA}{Novel Coronavirus (COVID-19) Cases from a South African perspective} repository \cite{covidsa}. The intention is to understand the influence of demographic variables on the early progression of the COVID-19 within different countries. As such, models used are chosen for their simplicity and transparency.
+This analysis spelling is based on the \href{https://github.com/willkhoza/COVID_SA}{Novel Coronavirus (COVID-19) Cases from a South African perspective} repository \cite{covidsa}. The intention is to understand the influence of demographic variables on the early progression of the COVID-19 within different countries. As such, models used are chosen for their simplicity and transparency.
 
 The repository sources data from the \href{https://github.com/CSSEGISandData/COVID-19}{2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE} repository \cite{jhu}.
 \end{abstract}
@@ -42,7 +42,7 @@ The multivariate linear regression uses demographic predictor variables to model
 	\item $t_2$: The number of days it takes for a country to report it's first known death as a result of the virus following it's first confirmed infection.
 \end{enumerate}
 
-The earliest confirmed case  of COVID-19 is  unofficiially reported to be 17 November 2019 \cite{scmp}.
+The earliest confirmed case  of COVID-19 is  unofficially reported to be 17 November 2019 \cite{scmp}.
 
 \subsection{Demographic Predictors}
 The following demographic variables are used to fit the model:
@@ -137,7 +137,7 @@ Furthermore, the data capturing period is from 22 January 2019 onwards, as such,
 	
 	The pearson correlation between Population and $t_1$ is $-0.565$. This shows that $t_1$ is also inversely related to the number of airline passengers, such that a large number number of airline passengers is associated with reporting a first confirmed case sooner. 
 	
-	Furthermore, we observe that $ln$(Pssengers) axis separates the $t_1$ into axis into 2 categories, i.e. The segment below 12 and the segment above 12. These identify countries with low and high numbers of air passengers respectively, with a strange realization that countries with low numbers of air passengers tend to have higher fertility rates. This narative is further reinforced by the next relationship, which shows that countries with a low number of airpassengers, tend to have younger populations.
+	Furthermore, we observe that $ln$(Passengers) axis separates the $t_1$ into axis into 2 categories, i.e. The segment below 12 and the segment above 12. These identify countries with low and high numbers of air passengers respectively, with a strange realization that countries with low numbers of air passengers tend to have higher fertility rates. This narative is further reinforced by the next relationship, which shows that countries with a low number of airpassengers, tend to have younger populations.
 	
 	i.e: Older populations have a tendency travel more (resulting in more exposure to COVID-19) compared to younger populations, they also have more interaction with other networks of older people. This, coupled with having weaker immune systems, may have been a major driver of the COVID-19 pandemic affecting older people with the extreme intensity which it has.
 	
@@ -157,7 +157,7 @@ Furthermore, the data capturing period is from 22 January 2019 onwards, as such,
 	
 	\item $. \sim .$ (correlogram)
 	
-	For completeness, see below correlogram for summary of all other relatioships with respect to the pearson correlation.
+	For completeness, see below correlogram for summary of all other relationships with respect to the pearson correlation.
 	 
 	\includegraphics{corr.png}
 \end{enumerate}
@@ -176,7 +176,7 @@ The following decision tree model was fitted for variable $t_1$
 
 The decision tree re-iterates the theory that older people tend to travel, and as a result have more exposure to COVID-19 as opposed to their younger counter parts. 
 
-The model begins by identifying that countries with a large number of airtravellers are the purest segment to identify the countries with the lowest time to report a first case. It further segments countries who have less fertility rates and annual growth rates as those who take the least time to report a first case. Both these cases point out to older populations, who are not as fertile, but have the means to use air travel frequently.
+The model begins by identifying that countries with a large number of air travellers are the purest segment to identify the countries with the lowest time to report a first case. It further segments countries who have less fertility rates and annual growth rates as those who take the least time to report a first case. Both these cases point out to older populations, who are not as fertile, but have the means to use air travel frequently.
 
 \newpage
 
