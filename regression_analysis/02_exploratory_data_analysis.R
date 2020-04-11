@@ -36,7 +36,7 @@ dat %>%
   ggplot()+
   aes(x = lnPassengers, y = t1, size = Fert_Rate)+
   geom_point() +
-  ggtitle("lnPassengers vs t1 per country", "Fert_Rate")
+  ggtitle("lnPassengers vs t1 per country", "Weighted by Fert_Rate")
 
 dat %>%
   ggplot()+

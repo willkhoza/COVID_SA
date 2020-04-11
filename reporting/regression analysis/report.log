@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.10)  11 APR 2020 04:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.10)  12 APR 2020 00:02
 entering extended mode
 **./report.tex
 (report.tex
@@ -293,26 +293,26 @@ ning (ext4): destination with the same identifier (name{page.1}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \end{abstract}
+l.30 \end{abstract}
                     [1]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 41.
+(Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
+(Font)              <5> on input line 46.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 	\item P
+l.78 	\item P
              assengers: Annual number of airline passengers per country
 [1] [2] [3]
 <./images/t1vt2.png, id=104, 367.3725pt x 274.02374pt>
 File: ./images/t1vt2.png Graphic file (type png)
 <use ./images/t1vt2.png>
-Package pdftex.def Info: ./images/t1vt2.png  used on input line 132.
+Package pdftex.def Info: ./images/t1vt2.png  used on input line 137.
 (pdftex.def)             Requested size: 367.37158pt x 274.02307pt.
 
-Overfull \hbox (47.37161pt too wide) in paragraph at lines 132--133
+Overfull \hbox (47.37161pt too wide) in paragraph at lines 137--138
 [][] 
  []
 
@@ -320,10 +320,10 @@ Overfull \hbox (47.37161pt too wide) in paragraph at lines 132--133
 <./images/lnpvt1.png, id=111, 367.3725pt x 274.02374pt>
 File: ./images/lnpvt1.png Graphic file (type png)
 <use ./images/lnpvt1.png>
-Package pdftex.def Info: ./images/lnpvt1.png  used on input line 144.
+Package pdftex.def Info: ./images/lnpvt1.png  used on input line 149.
 (pdftex.def)             Requested size: 367.37158pt x 274.02307pt.
 
-Overfull \hbox (47.37161pt too wide) in paragraph at lines 144--145
+Overfull \hbox (47.37161pt too wide) in paragraph at lines 149--150
 [][] 
  []
 
@@ -331,10 +331,10 @@ Overfull \hbox (47.37161pt too wide) in paragraph at lines 144--145
 <./images/mavt1.png, id=119, 367.3725pt x 274.02374pt>
 File: ./images/mavt1.png Graphic file (type png)
 <use ./images/mavt1.png>
-Package pdftex.def Info: ./images/mavt1.png  used on input line 154.
+Package pdftex.def Info: ./images/mavt1.png  used on input line 159.
 (pdftex.def)             Requested size: 367.37158pt x 274.02307pt.
 
-Overfull \hbox (47.37161pt too wide) in paragraph at lines 154--155
+Overfull \hbox (47.37161pt too wide) in paragraph at lines 159--160
 [][] 
  []
 
@@ -342,81 +342,81 @@ Overfull \hbox (47.37161pt too wide) in paragraph at lines 154--155
 <./images/corr.png, id=126, 367.3725pt x 274.02374pt>
 File: ./images/corr.png Graphic file (type png)
 <use ./images/corr.png>
-Package pdftex.def Info: ./images/corr.png  used on input line 162.
+Package pdftex.def Info: ./images/corr.png  used on input line 167.
 (pdftex.def)             Requested size: 367.37158pt x 274.02307pt.
 
-Overfull \hbox (47.37161pt too wide) in paragraph at lines 162--163
+Overfull \hbox (47.37161pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
 [7 <./images/corr.png (PNG copy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 166.
+(Font)              <14.4> on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
+(hyperref)                removing `math shift' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 166.
+(hyperref)                removing `subscript' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
+(hyperref)                removing `math shift' on input line 171.
 
 <./images/tree.png, id=132, 367.3725pt x 274.02374pt>
 File: ./images/tree.png Graphic file (type png)
 <use ./images/tree.png>
-Package pdftex.def Info: ./images/tree.png  used on input line 173.
+Package pdftex.def Info: ./images/tree.png  used on input line 178.
 (pdftex.def)             Requested size: 367.37158pt x 274.02307pt.
 
-Overfull \hbox (22.37158pt too wide) in paragraph at lines 173--174
+Overfull \hbox (22.37158pt too wide) in paragraph at lines 178--179
  [][] 
  []
 
-[8 <./images/tree.png (PNG copy)>]
+[8 <./images/tree.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 183.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 183.
+(hyperref)                removing `math shift' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 183.
+(hyperref)                removing `subscript' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 188.
 
 [9]
-Overfull \hbox (279.55028pt too wide) in paragraph at lines 198--202
+Overfull \hbox (279.55028pt too wide) in paragraph at lines 203--207
 \OT1/cmtt/m/n/10 https://www.scmp.com/news/china/society/article/3074991/corona
 virus-chinas-first-confirmed-covid-19-case-traced-back 
  []
 
 
-Overfull \hbox (25.45242pt too wide) in paragraph at lines 204--206
+Overfull \hbox (25.45242pt too wide) in paragraph at lines 209--211
 \OT1/cmtt/m/n/10 https://en.wikipedia.org/wiki/List[]of[]countries[]by[]airline
 []passengers 
  []
 
 
-Overfull \hbox (32.80243pt too wide) in paragraph at lines 208--210
+Overfull \hbox (32.80243pt too wide) in paragraph at lines 213--215
 \OT1/cmtt/m/n/10 https://www.worldometers.info/world-population/population-by-c
 ountry/ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
 [10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: A174CF218BB14311070402DC34F6CD03;536.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
  5336 strings out of 480930
@@ -425,7 +425,7 @@ Here is how much of TeX's memory you used:
  21077 multiletter control sequences out of 15000+200000
  538328 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,9n,31p,523b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,9n,31p,524b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/e569765/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/e569765/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/e569765/AppData/Local/Programs/MiKTeX
@@ -441,9 +441,9 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/e5
 69765/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
 fb><C:/Users/e569765/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmtt10.pfb>
-Output written on report.pdf (12 pages, 235395 bytes).
+Output written on report.pdf (12 pages, 228969 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
+ 204 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
  90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
